@@ -200,6 +200,11 @@ server.contextPath = /employee-api
 or
 server.servlet.context-path=/employee-api
 
+ > Refer: Spring boot properties
+
+
+
+
 
   
 
