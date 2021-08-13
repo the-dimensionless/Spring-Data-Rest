@@ -191,6 +191,15 @@ However, we can get around that by providing a getter with alias for id.
 }
 ```
 
+At startup embedded tomcat maps the context to root-context
+(no application name in uri, port number and then resources)
+In properties, we add
+server.context-path = /employee-api
+or
+server.contextPath = /employee-api
+or
+server.servlet.context-path=/employee-api
+
 
   
 
